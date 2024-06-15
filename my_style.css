@@ -1,0 +1,79 @@
+*{
+    margin : 0;
+    padding :0;
+
+}
+body{
+    background-color:#548687;
+    text-align:center;
+}
+h1{
+    border-bottom:0.2rem solid black;
+    box-shadow:0 0 1.9rem rgba(0,0,0,0.6);
+}
+.container {
+    height:70vh;
+    display:flex;
+  
+    justify-content:center;
+    align-items:center;
+    
+
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:1.5vmin;
+
+
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius:0.9rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+    font-size:9vmin;
+    color:#b0413e;
+    background-color: #ffffc7;     /*  button color same rahega jo hum set kiye hai par chod dete hai to bachgroun color jo body ka hai uska shaded form dikhega */
+
+
+
+}
+#reset-btn{
+    background-color:black;
+    border-radius:1rem;
+    color:white;
+    padding:3vmin;
+    font-size:4vmin;
+}
+#new-btn{
+    background-color:black;
+    border-radius:1rem;
+    color:white;
+    padding:3vmin;
+    font-size:4vmin;
+
+}
+#msg {
+    color:#ffffc7;
+    font-size:8vmin;
+}
+.msg-container {
+    height: 145vmin;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:1rem;
+
+
+
+}
+.hide {
+    display:none;
+}
